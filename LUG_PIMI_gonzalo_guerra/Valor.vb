@@ -1,4 +1,4 @@
-﻿Public Class Secuencia
+﻿Public Class Valor
 
     Private _id As Integer
     Private _valor As Integer
@@ -49,6 +49,6 @@
     End Property
 
     Public Overrides Function ToString() As String
-        Return "id->" & _id & " valor->" & _valor & " anterior->" & _anterior & " posterior->" & _posterior
+        Return "id->" & _id & vbCrLf & "valor->" & _valor & vbCrLf & "anterior->" & _anterior & vbCrLf & "posterior->" & _posterior
     End Function
 End Class
